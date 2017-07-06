@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wine Tasting RSVP</title>
+  </head>
+  <body>
+    <!-- form -->
+    <form name="registrationForm"  method="post">
+        <h1>Complete this form to RSVP for our wine tasting!</h1>
+
+        <h3>Please provide your name and address.</h3>
+          <div>
+            <input name="firstName" type="text" id="firstName" placeholder=" First Name" value="" minlength="2" required="">
+            <input name="lastName" type="text" id="lastName" placeholder=" Last Name" value="" minlength="2" required="">
+          </div>
+
+          <div class="address">
+            <input name="streetNumber" type="text" id="streetNumber" placeholder="1234" value="" required=""> <input name="streetName" type="text" id="streetName" placeholder="Magnolia Street" value="" required="">
+         </div>
+
+         <div class="city-state-zip">
+           <input name="city" type="text" id="city" placeholder="City" value="" required=""> <input name="state" type="text" id="state" placeholder="ST" value="" required=""><input name="zip" type="text" id="zip" placeholder="12345" value="" required="">
+        </div>
+
+          <div class="message">
+            <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" ></textarea>
+         </div>
+
+          <div>
+             <button class="submitform">Submit</button>
+        </div>
+
+        <h3>Thank you for your RSVP!</h3>
+
+  </form> <!-- Form End -->
+
+
+  </body>
+</html>
